@@ -1,0 +1,51 @@
+/*整体*/
+.op-enOswld{
+    background-image:url(assets/img/pages/bg_know.jpg);
+    height:700px;
+}
+/*header*/
+
+/*header 1*/
+.p-home-information__headline{
+    font-size: 1.75rem;
+    line-height: 1.6785714286;
+    letter-spacing: 0.1em;
+    font-family: "游明朝","Yu Mincho",YuMincho,"Hiragino Mincho Pro",serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: normal;
+}
+/*header 2*/
+.p-home-information__headlineEn {
+    font-size: 2.4375rem;
+}
+.p-home-information__headlineEn {
+    font-size: 1.625rem;
+    line-height: 1.3333333333;
+}
+.op-enOswld {
+    font-family: "Oswald",sans-serif;
+    font-weight: 300;
+}
+/*header 3 */
+/*.p-home-information-index__item:not(:last-child){
+    margin-right: 3.4375rem;
+}*/
+.p-home-information-index__item {
+    text-align: center;
+    font-size: .875rem;
+    color: #585858;
+    line-height: 1.4285714286;
+    text-decoration: none;
+}
+a {
+    transition: .3s color ease;
+    background-color: transparent;
+}
+a:hover {
+    color: #8b8b8b;
+}
+a:active, a:hover {
+    outline-width: 0;
+}

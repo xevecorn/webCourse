@@ -1,0 +1,114 @@
+/*universal*/
+h1, h2, h3, h4, h5 {
+    font-weight: normal;
+    font-size: 1rem;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+*, ::before, ::after {
+    background-repeat: no-repeat;
+    box-sizing: inherit;
+}
+
+
+/*part5 footer*/
+/*part5 footer-assemble*/
+.l-footer {
+    background: #2b2b2b;
+    padding: 3.125rem 0 1.25rem;
+}
+footer {
+    display: block;
+}
+/*part5 footer-op-org*/
+.l-footer-org__names {
+    color: #fff;
+    position: relative;
+    padding: 5.3125rem 0 0 0;
+    text-align: center;
+}
+.l-footer-org__name {
+    font-size: .875rem;
+}
+.op-en {
+    font-family: "Noto Sans",sans-serif !important;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.l-footer-org__name.op-jp {
+    font-size: .9375rem;
+    font-weight: 700;
+}
+.l-footer-org__name {
+    font-size: .875rem;
+}
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.l-footer__section.op-org {
+    padding-bottom: 2.1875rem;
+}
+.l-footer__section {
+    width: 100%;
+    max-width: calc(1090px + 3.75rem);
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+}
+.l-footer__section {
+    width: 82%;
+    margin: 0 auto;
+}
+
+.l-footer-sitemap__wrapper {
+    display: block;
+    text-align: left;
+    flex-wrap: wrap;
+}
+.l-footer-sitemap__item a {
+    font-size: .75rem;
+}
+.l-footer-sitemap__wrapper a {
+    color: #fff;
+    text-decoration: none;
+}
+a:hover {
+    color: #8b8b8b;
+}
+a:link {
+    color: #585858;
+}
+a:active, a:hover {
+    outline-width: 0;
+}
+a {
+    transition: .3s color ease;
+}
+a {
+    background-color: transparent;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.l-footer-sitemap__item {
+    line-height: 1.38;
+}
+ul, li {
+    list-style: none;
+}
+li {
+    text-align: -webkit-match-parent;
+}
